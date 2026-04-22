@@ -6,51 +6,20 @@ public class Prodotto {
     private String marca;
     private String modello;
     private int prezzo;
-    private String materiale;
+    private Map<String, String> attributi;
     private String nome;
     private int idImmagine;
-
-    private int categoria;
-    private String descrizione;
-    private String tipo;
-    public Prodotto(String marca, String modello, int prezzo, String materiale, String nome, int idImmagine, int categoria,String descrizione, String tipo){
+    public Prodotto(String marca, String modello, int prezzo, Map<String, String> attributi, String nome, int idImmagine){
         this.marca = marca;
         this.modello = modello;
         this.prezzo = prezzo;
-        this.materiale = materiale;
+        this.attributi = attributi;
         this.nome = nome;
         this.idImmagine = idImmagine;
-        this.categoria = categoria;
-        this.descrizione = descrizione;
-        this.tipo = tipo;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
     }
 
     public String getMarca() {
         return marca;
-    }
-
-    public int getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(int categoria) {
-        this.categoria = categoria;
-    }
-
-    public String getDescrizione() {
-        return descrizione;
-    }
-
-    public void setDescrizione(String descrizione) {
-        this.descrizione = descrizione;
     }
 
     public void setMarca(String marca) {
@@ -73,12 +42,12 @@ public class Prodotto {
         this.prezzo = prezzo;
     }
 
-    public String getMateriale() {
-        return materiale;
+    public Map<String, String> getAttributi() {
+        return attributi;
     }
 
-    public void setMateriale(String materiale) {
-        this.materiale = materiale;
+    public void setAttributi(Map<String, String> attributi) {
+        this.attributi = attributi;
     }
 
     public String getNome() {
