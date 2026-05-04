@@ -1,0 +1,6 @@
+marca,modello,prezzo,materiale,nome,immagine,moto,descrizione,tipo
+Athena,84.7cc,464,Alluminio,Cilindro yz85,cilindro_yz_85,0,DESCRIZIONE,Motore
+Athena,124.8cc,550,Alluminio,Cilindro yz125,cilindro_yz_125,0,DESCRIZIONE,Motore
+NGK,BR10EG,18,,Candela yz85,candela_yz_85,0,DESCRIZIONE,Motore
+FMF,Shorty,230,Titanio,Silenziatore yz85,scarico_yz85,0,DESCRIZIONE,Scarichi
+Yamaha,250cc,700,Alluminio,Cilindro yzf250,cilindro_yzf250,1,DESCRIZIONE,Motore

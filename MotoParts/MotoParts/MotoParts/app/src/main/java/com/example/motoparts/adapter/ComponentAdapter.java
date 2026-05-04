@@ -23,14 +23,14 @@ public class ComponentAdapter extends RecyclerView.Adapter<ComponentAdapter.View
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.prodotto, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_component, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
        Prodotto prodotto = prodotti.get(position);
-       holder.nome.setText(prodotto.getNome());
+       holder.title.setText(prodotto.getNome());
        holder.image.setImageResource(prodotto.getIdImmagine());
        holder.itemView.setOnClickListener(v -> Toast.makeText(v.getContext(),prodotto.getNome(),Toast.LENGTH_SHORT).show());
     }
@@ -41,13 +41,13 @@ public class ComponentAdapter extends RecyclerView.Adapter<ComponentAdapter.View
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView nome;
+        TextView title;
         ImageView image;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            nome = itemView.findViewById(R.id.nomeProdotto);
-            image = itemView.findViewById(R.id.immagineProdotto);
+            title = itemView.findViewById(R.id.title);
+            image = itemView.findViewById(R.id.img);
         }
     }
 }
