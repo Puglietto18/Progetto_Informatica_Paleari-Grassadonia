@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DettaglioProdottoActvity" />
+        <activity
+            android:name=".CarrelloActivity" />
     </application>
 
 </manifest>

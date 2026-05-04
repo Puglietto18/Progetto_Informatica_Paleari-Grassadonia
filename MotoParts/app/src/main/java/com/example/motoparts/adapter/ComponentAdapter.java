@@ -15,10 +15,15 @@ import com.example.motoparts.R;
 
 
 public class ComponentAdapter extends RecyclerView.Adapter<ComponentAdapter.ViewHolder> {
+    public interface OnProductClickListener {
+        void onProductClick(Prodotto prodotto);
+    }
     List<Prodotto> prodotti;
+    private final OnProductClickListener listener;
 
-    public ComponentAdapter( List<Prodotto> prodotti) {
+    public ComponentAdapter( List<Prodotto> prodotti, OnProductClickListener listener) {
         this.prodotti = prodotti;
+        this.listener = listener;
     }
 
     @Override
@@ -32,7 +37,12 @@ public class ComponentAdapter extends RecyclerView.Adapter<ComponentAdapter.View
        Prodotto prodotto = prodotti.get(position);
        holder.nome.setText(prodotto.getNome());
        holder.image.setImageResource(prodotto.getIdImmagine());
-       holder.itemView.setOnClickListener(v -> Toast.makeText(v.getContext(),prodotto.getNome(),Toast.LENGTH_SHORT).show());
+       //holder.itemView.setOnClickListener(v -> Toast.makeText(v.getContext(),prodotto.getNome(),Toast.LENGTH_SHORT).show());
+        holder.itemView.setOnClickListener(v -> {
+            if (listener != null) {
+                listener.onProductClick(prodotto);
+            }
+        });
     }
 
     @Override

@@ -1,0 +1,30 @@
+Athena;84.7cc;464;Alluminio;Cilindro-yz85;cilindro_yz_85;0;Motore;Cilindro in alluminio da 84.7 cc progettato per migliorare prestazioni e dissipazione del calore Ottimo upgrade per aumentare potenza e affidabilità;
+Athena;124.8cc;550;Alluminio;Cilindro-yz125;cilindro_yz_125;0;Motore;Cilindro da 124.8 cc in alluminio progettato per incrementare potenza e durata Ottimo per uso sportivo e racing;       
+Athena;249cc;600;Alluminio;Cilindro-yz250;cilindro_yz_250;0;Motore;Cilindro da 249 cc in alluminio progettato per massime prestazioni Offre grande resistenza e dissipazione del calore;
+Yamaha;Scomponibile;160;Alluminio;Testa-yz85;testa_yz_85;0;Motore;Testa in alluminio scomponibile che garantisce migliore manutenzione e raffreddamento Ideale per ottimizzare la combustione;    
+Yamaha;Scomponibile;200;Alluminio;Testa-yz125;testa_yz_125;0;Motore;Testa in alluminio che favorisce un miglior raffreddamento e manutenzione Aiuta a ottimizzare la combustione;        
+Yamaha;Scomponibile;190;Alluminio;Testa-yz250;testa_yz_250;0;Motore;Testa in alluminio che migliora la combustione e facilita la manutenzione Ideale per motori ad alte prestazioni;
+NGK;BR10EG;18;null;Candela-yz85;candela_yz_85;0;Motore;Candela ad alte prestazioni progettata per motori ad alto regime Assicura accensioni precise e affidabili;        
+NGK;BR10EG;18;null;Candela-yz125;candela_yz_125;0;Motore;Candela affidabile per alte prestazioni e regimi elevati Garantisce accensione costante e precisa;        
+NGK;BR9EG;21;null;Candela-yz250;candela_yz_250;0;Motore;Candela progettata per motori più potenti con ottima resa termica Garantisce affidabilità anche sotto stress
+Keihin;PWK-28;180;Alluminio;Carburatore-yz85;carburatore_yz_85;0;Motore;Carburatore da 28 mm che migliora la risposta del motore e l’erogazione Perfetto per prestazioni più fluide e reattive;        
+Keihin;PWK-38;210;Alluminio;Carburatore-yz125;carburatore_yz_125;0;Motore;Carburatore da 38 mm per maggiore afflusso d’aria e carburante Migliora significativamente le prestazioni del motore;     
+Keihin;PWK-38;210;Alluminio;Carburatore-yz250;carburatore_yz_250;0;Motore;Carburatore ad alte prestazioni da 38 mm Migliora potenza e risposta del motore in ogni regime;
+FMF;null;250;Titanio;Pancia-yz85;pancia_yz85;0;Scarichi;Espansione studiata per aumentare coppia e potenza ai medi e alti regimi Migliora il rendimento complessivo del motore;
+FMF;null;280;Titanio;Pancia-yz125;pancia_yz85;0;Scarichi;Espansione progettata per aumentare la potenza agli alti regimi Ideale per utilizzo in pista o fuoristrada sportivo;       
+FMF;null;320;Titanio;Pancia-yz250;pancia_yz250;0;Scarichi;Espansione che aumenta coppia e potenza su tutto l’arco di utilizzo Perfetta per migliorare le performance globali       
+FMF;Shorty;230;Titanio;Silenziatore-yz85;scarico_yz85;0;Scarichi;Silenziatore compatto che aumenta la risposta ai bassi regimi Riduce il rumore mantenendo alte prestazioni;       
+FMF;Shorty;260;Titanio;Silenziatore-yz125;scarico_yz125;0;Scarichi;Silenziatore leggero e compatto che migliora la risposta del motore Ottimo equilibrio tra prestazioni e rumorosità;       
+FMF;Shorty;290;Titanio;Silenziatore-yz250;scarico_yz250;0;Scarichi;Silenziatore sportivo che migliora l’erogazione ai bassi regimi Leggero e performante;
+Yamaha;250cc;700;Alluminio;Cilindro-yzf250;cilindro_yzf250;1;Motore;Cilindro originale da 250 cc in alluminio progettato per alte prestazioni e durata Perfetto per utilizzo racing;
+Yamaha;450cc;900;Alluminio;Cilindro-yzf450;cilindro_yzf450;1;Motore;Cilindro da 450 cc in alluminio per massime prestazioni e resistenza Ideale per uso intensivo e racing;
+Athena;Monoblocco;520;Alluminio;Testa-yzf250;testa_yzf250;1;Motore;Testa monoblocco in alluminio che garantisce maggiore rigidità e resistenza Ottimizza la combustione e le prestazioni;
+Athena;Monoblocco;710;Alluminio;Testa-yzf450;testa_yzf450;1;Motore;Testa in alluminio monoblocco ad alta resistenza Migliora la combustione e l’efficienza del motore;
+NGK;CR8E;20;null;Candela-yzf250;candela_yzf250;1;Motore;Candela affidabile per motori 4 tempi ad alte prestazioni Assicura accensioni precise e costanti;
+NGK;CR8E;20;null;Candela-yzf450;candela_yzf450;1;Motore;Candela progettata per motori potenti e ad alte temperature Garantisce affidabilità e prestazioni costanti;
+Keihin;Iniezione-Elettronica;340;null;Iniettori-yzf250;iniettori_yzf250;1;Motore;Sistema di iniezione elettronica che migliora efficienza e risposta del motore Garantisce un’erogazione precisa del carburante;        
+Keihin;Iniezione-Elettronica;400;null;Iniettori-yzf450;iniettori_yzf450;1;Motore;Sistema di iniezione elettronica avanzato per massima precisione Migliora consumi e risposta del motore;
+FMF;Megabomb;500;Titanio;Collettore-yzf250;colletore_yzf250;1;Scarichi;Collettore progettato per aumentare coppia e migliorare la distribuzione dei gas Ottimizza le prestazioni complessive;      
+FMF;Megabomb;600;Titanio;Collettore-yzf450;colletore_yzf450;1;Scarichi;Collettore ad alte prestazioni che aumenta coppia e fluidità Ottimizza il rendimento del motore;
+FMF;Powercore;500;Titanio;Silenziatore-yzf250;scarico_yzf250;1;Scarichi;Silenziatore ad alte prestazioni che migliora flusso e potenza Offre un ottimo equilibrio tra rumore e resa;      
+FMF;Powercore;800;Titanio;Silenziatore-yzf450;scarico_yzf450;1;Scarichi;Silenziatore progettato per massima potenza e flusso dei gas Perfetto per prestazioni elevate e uso sportivo;

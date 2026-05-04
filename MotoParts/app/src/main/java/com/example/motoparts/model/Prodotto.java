@@ -5,7 +5,7 @@ import java.util.Map;
 public class Prodotto {
     private String marca;
     private String modello;
-    private int prezzo;
+    private String prezzo;
     private String materiale;
     private String nome;
     private int idImmagine;
@@ -13,7 +13,7 @@ public class Prodotto {
     private int categoria;
     private String descrizione;
     private String tipo;
-    public Prodotto(String marca, String modello, int prezzo, String materiale, String nome, int idImmagine, int categoria,String descrizione, String tipo){
+    public Prodotto(String marca, String modello, String prezzo, String materiale, String nome, int idImmagine, int categoria, String tipo, String descrizione){
         this.marca = marca;
         this.modello = modello;
         this.prezzo = prezzo;
@@ -65,11 +65,11 @@ public class Prodotto {
         this.modello = modello;
     }
 
-    public int getPrezzo() {
+    public String getPrezzo() {
         return prezzo;
     }
 
-    public void setPrezzo(int prezzo) {
+    public void setPrezzo(String prezzo) {
         this.prezzo = prezzo;
     }
 

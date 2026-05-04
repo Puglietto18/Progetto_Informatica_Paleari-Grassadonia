@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/testoCarrello"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Carrello"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSvuotaCarrello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVUOTA CARRELLO"
+        android:backgroundTint="@color/barra_categoria"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/btnAcquistaCarrello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acquista carrello"/>
+    <Button
+        android:id="@+id/btnVediScontrini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vedi scontrini"/>
+</LinearLayout>

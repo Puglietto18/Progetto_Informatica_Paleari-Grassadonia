@@ -20,7 +20,7 @@
             android:layout_height="260dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            tools:src="@drawable/cilindro_YZ_85"/>
+            tools:src="@drawable/cilindro_yz_85"/>
         <TextView
             android:id="@+id/nomeProdotto"
             android:layout_width="match_parent"
